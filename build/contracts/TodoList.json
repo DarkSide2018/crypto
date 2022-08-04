@@ -11855,14 +11855,59 @@
   },
   "networks": {
     "5777": {
-      "events": {},
+      "events": {
+        "0xe21fa966ca5cd02748c0752352d18c48165e61cb55b4c29cccf924b5a95fcff1": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "bool",
+              "name": "completed",
+              "type": "bool"
+            }
+          ],
+          "name": "TaskCompleted",
+          "type": "event"
+        },
+        "0x05d0fb833127fc08168556d0e7ca9554fc3f6bc843b3b7d2bf1c35aea6bab660": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "content",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "bool",
+              "name": "completed",
+              "type": "bool"
+            }
+          ],
+          "name": "TaskCreated",
+          "type": "event"
+        }
+      },
       "links": {},
-      "address": "0x81b549cD67DE5282d82dd88D3f98CE141B0aACa4",
-      "transactionHash": "0x0dddbfbc0981ccc155c1934e8f9963d66847ec3a0afc9d2ff55bca15bc8c1c45"
+      "address": "0x9F85A68c86DE02F8523997a87d99F4bfaD3fe1fD",
+      "transactionHash": "0xf080d956e983d4363fc75508b4356a1f1994628e206602dbdce093c73addd470"
     }
   },
   "schemaVersion": "3.4.8",
-  "updatedAt": "2022-08-02T13:27:40.373Z",
+  "updatedAt": "2022-08-03T18:26:42.169Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
